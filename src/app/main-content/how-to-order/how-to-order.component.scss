@@ -1,0 +1,44 @@
+$red-color: #9f0908;
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+  gap: 64px;
+  > h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    color: $red-color;
+  }
+}
+
+.steps {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    > img {
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
+
+h3 {
+  font-size: 56px;
+  text-align: center;
+}

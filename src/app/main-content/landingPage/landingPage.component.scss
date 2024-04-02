@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../assets/img/1_hero/JPG/hero_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width: 100%;
+}
+
+    
